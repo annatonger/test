@@ -1,0 +1,9 @@
+language: node_js
+before_script:
+	- "npm install -g se-interpreter"
+script:
+	- "se-interpreter interpreter_config.json"
+env:
+	global:
+		- SAUCE_USERNAME=tonga
+		- secure: "ZDda63+iwx4jDep2MyoyghRot6d3BMv0+kmH4W1nLxPWNeDd/bwy96384N9YHj8DmxEnHS8HDtYK3VIpqTJlyUgfCbNyzYLCc8GkjDz8zPi5Q0t3CG8ptkHI2KCzyioCkEWaC1NHa9ZIB0Sv2IoE5gRxlBxQe6ZCusfoeOfROZY="
